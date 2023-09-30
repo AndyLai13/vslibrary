@@ -1,4 +1,5 @@
 package com.viewsonic.vslibrary
 
-class Square {
+class Square(val side: Int) {
+    fun getArea() = side * side
 }
